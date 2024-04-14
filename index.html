@@ -10,18 +10,15 @@
     <main>
         <section>
             <span>Puebla</span>
-        
-            <!-- Button for selecting date and time -->
-            <button id="event-date-time-btn" aria-labelledby="event-date-time event-date-time-label">
-                <span class="visually-hidden" id="event-date-time-label">Select Event Date and Time</span>
-            </button>
-            <input type="datetime-local" id="event-date-time" aria-hidden="true">
-        
-            <!-- Button for selecting date -->
-            <button id="event-date-btn" aria-labelledby="event-date event-date-label">
-                <span class="visually-hidden" id="event-date-label">Select Event Date</span>
-            </button>
-            <input type="date" id="event-date" aria-hidden="true">
+
+            <label class="styled-button" for="time">Select Time</label>
+            <input type="time" id="time">
+
+            <label class="styled-button" for="date">Select Event Date</label>
+            <input type="date" id="date">
+
+            <label class="styled-button" for="location">Select Location</label>
+            <input type="text" id="location">
         </section>
         
         <section>
